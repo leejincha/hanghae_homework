@@ -63,11 +63,11 @@ public class Taxi {
     }
 
     public static void main(String[] args) {
-        Taxi mytaxi = new Taxi("a1111");
+        Taxi mytaxi = new Taxi("a1111"); //버스넘버 입력
 
-        mytaxi.getPassenger(3);
-        mytaxi.gasStaus(20);
-        mytaxi.overPrice();
+        mytaxi.getPassenger(3); //승객 수 입력
+        mytaxi.gasStaus(20); // 가스값 입력
+        mytaxi.overPrice(); 
 
 
         System.out.println("택시넘버: "+ mytaxi.TaxiNum);
