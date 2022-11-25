@@ -68,10 +68,10 @@ public class Bus {
     }
 
     public static void main(String[] args) {
-     Bus mybus = new Bus("a1111");
-     mybus.gasStaus(20);
-     mybus.setPassenger(6);
-     mybus.getSpeed(20, mybus.gas);
+     Bus mybus = new Bus("a1111"); //차량 넘버 입력
+     mybus.gasStaus(20); // 주유량 입력
+     mybus.setPassenger(6); // 승객수 입력
+     mybus.getSpeed(20, mybus.gas); //속력입력
 
         System.out.println("버스넘버 :" + mybus.busNum);
         System.out.println("탑승 승객 수: "+ mybus.passenger);
